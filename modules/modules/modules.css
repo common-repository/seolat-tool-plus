@@ -1,0 +1,11 @@
+#sl-modules table.widefat {
+	clear: left;
+}
+
+#sl-modules .module-status a.status-10.active { color: green; }
+#sl-modules .module-status a.status-5.active { color: black; }
+#sl-modules .module-status a.status-0.active  { color: darkorange; }
+#sl-modules .module-status a.status-n10.active { color: red; }
+#sl-modules .module-name { color: #767676; }
+#sl-modules .module-name a.module-link { color: #0074A2; }
+#sl-modules .module-name a.module-link:hover { color: #0074A2; }

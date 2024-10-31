@@ -1,0 +1,34 @@
+
+.div-header
+{
+    display: table;
+    width: 100%;
+}
+
+.div-caption
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.div-button-save
+{
+    display: table-cell;
+}
+
+
+.div-header .div-caption
+{
+    text-align: left;
+}
+
+.div-header .div-button-save
+{
+    right: 0;
+    text-align: right;
+}
+
+.div-header .div-button-save input
+{
+    margin: 0;
+}

@@ -1,0 +1,50 @@
+<wpml-config>
+  <custom-fields>
+    <custom-field action="translate">_sl_title</custom-field>
+    <custom-field action="translate">_sl_description</custom-field>
+    <custom-field action="copy">_sl_rich_snippet_type</custom-field>
+    <custom-field action="translate">_sl_rich_snippet_review_item</custom-field>
+    <custom-field action="copy">_sl_rich_snippet_review_image</custom-field>
+    <custom-field action="copy">_sl_rich_snippet_review_rating</custom-field>
+    <custom-field action="translate">_sl_og_title</custom-field>
+    <custom-field action="translate">_sl_og_description</custom-field>
+    <custom-field action="copy">_sl_og_image</custom-field>
+    <custom-field action="copy">_sl_og_type</custom-field>
+    <custom-field action="copy">_sl_twitter_card</custom-field>
+    <custom-field action="translate">_sl_morelinktext</custom-field>
+    <custom-field action="copy">_sl_meta_robots_noindex</custom-field>
+    <custom-field action="copy">_sl_meta_robots_nofollow</custom-field>
+    <custom-field action="translate">_sl_rich_snippet_place_address_street</custom-field>
+    <custom-field action="copy">_sl_rich_snippet_place_address_po_box</custom-field>
+    <custom-field action="translate">_sl_rich_snippet_place_address_city</custom-field>
+    <custom-field action="translate">_sl_rich_snippet_place_address_state</custom-field>
+    <custom-field action="translate">_sl_rich_snippet_place_address_country</custom-field>
+    <custom-field action="copy">_sl_rich_snippet_place_address_postal_code</custom-field>
+    <custom-field action="translate">_sl_rich_snippet_place_map_url</custom-field>
+    <custom-field action="copy">_sl_rich_snippet_place_tel_number</custom-field>
+    <custom-field action="copy">_sl_rich_snippet_place_fax_number</custom-field>
+    <custom-field action="copy">_sl_rich_snippet_place_photo</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="seo_lat_module_more-links">
+      <key name="default"/>
+    </key>
+    <key name="seo_lat_module_meta">
+      <key name="description_paged"/>
+    </key>
+    <key name="seo_lat_module_titles">
+      <key name="title_home"/>
+      <key name="title_single"/>
+      <key name="title_page"/>
+      <key name="title_category"/>
+      <key name="title_tag"/>
+      <key name="title_day"/>
+      <key name="title_month"/>
+      <key name="title_year"/>
+      <key name="title_author"/>
+      <key name="title_search"/>
+      <key name="title_404"/>
+      <key name="title_paged"/>
+    </key>
+  </admin-texts>
+</wpml-config>

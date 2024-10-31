@@ -1,0 +1,18 @@
+#sl-meta-robots table.widefat {
+	width: auto;
+}
+
+#sl-meta-robots table.widefat td.sl-meta_robots_noindex,
+#sl-meta-robots table.widefat td.sl-meta_robots_nofollow,
+#sl-meta-robots table.widefat td.sl-meta_robots_noarchive,
+#sl-meta-robots table.widefat td.sl-meta_robots_nosnippet {
+	text-align: center;
+}
+
+.noindex-check{ margin: 0 !important; }
+.nofollow-check{ margin: 0 !important; }
+.noarchive-check{ margin: 0 !important; }
+.nosnippet-check{ margin: 0 !important; }
+
+#sl-tabset a{ margin-bottom: 10px; }
+#sl-meta-robots input.checkbox{ min-height: 17px; }

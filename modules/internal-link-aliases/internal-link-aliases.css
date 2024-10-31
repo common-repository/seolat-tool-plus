@@ -1,0 +1,38 @@
+#sl-internal-link-aliases table.widefat,
+#sl-internal-link-aliases table.widefat input.textbox {
+	width: 100%;
+}
+
+#sl-internal-link-aliases table.widefat td {
+	vertical-align: middle;
+}
+
+#sl-internal-link-aliases table.widefat td.sl-alias-to {
+	width: 15em;
+}
+
+#sl-internal-link-aliases table.widefat td.sl-alias-to-test {
+	font-size: 0.8em;
+}
+
+#sl-internal-link-aliases table.widefat td.sl-alias-delete {
+	width: 3em;
+	text-align: center;
+}
+
+#sl-internal-link-aliases table.widefat td.sl-alias-to table,
+#sl-internal-link-aliases table.widefat td.sl-alias-to table tr,
+#sl-internal-link-aliases table.widefat td.sl-alias-to table tr td {
+	border-collapse: 0;
+	padding: 0;
+	margin: 0;
+	border: 0 none;
+	background: transparent;
+}
+
+#sl-internal-link-aliases table.widefat td.sl-alias-to table tr td input.textbox {
+	width: 98%;
+}
+
+.my-check{ margin: 0 !important; }
+#sl-internal-link-aliases input.checkbox{ min-height: 17px; }

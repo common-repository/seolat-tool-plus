@@ -1,0 +1,10 @@
+
+#sl-301s .form-horizontal {
+    background: #FFF;
+    padding: 10px;
+}
+
+#sl-301s .form-horizontal .checkbox {
+    display: inline-block;
+    min-height: 17px !important;
+}

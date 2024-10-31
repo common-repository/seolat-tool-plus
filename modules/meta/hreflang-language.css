@@ -1,0 +1,21 @@
+
+#sl-hreflang-language td {
+	vertical-align: middle;
+}
+
+#sl-hreflang-language .sl-hreflang-language-meta_tag_before {
+	padding-right: 0;
+}
+
+#sl-hreflang-language td.sl-hreflang-language-meta_tag_before {
+	text-align: right;
+}
+
+#sl-hreflang-language .sl-hreflang-language-meta_tag {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#sl-hreflang-language .sl-hreflang-language-meta_tag_after {
+	padding-left: 0;
+}

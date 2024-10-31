@@ -1,0 +1,179 @@
+#sitemap-settings{
+    background: #fff;
+    margin: 0;
+    float: left;
+}
+#sitemap-settings li{
+    float: left;
+    padding: 10px 0;
+    width: 100px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    transition: all 0.3s;
+}
+#sitemap-settings li:hover{
+    cursor: pointer;
+    background: #ffffe0;
+    border-color: #c0c0c0 !important;
+}
+#sitemap-settings li:active, #sitemap-settings li:focus{
+    border-color: #000 !important;
+}
+.sitemap-active{
+    border-color: #c0c0c0 !important;
+}
+#sitemap-table-hide, .sitemap-hidden{
+    display: none;
+}
+#sitemap-table-show, .sitemap-shown{
+    display: block !important;
+}
+#simple-wp-sitemap-donate{
+	position: relative,
+}
+#simple-wp-sitemap-donate img{
+	position: absolute;
+	margin: -1px 0 0 7px;
+	transition: all 0.3s;
+}
+#simple-wp-sitemap-donate img:hover{
+	opacity: 0.8;
+}
+#simple-wp-sitemap-h2{
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+#simple-wp-sitemap-h2 img{
+	float: left;
+}
+#simple-wp-sitemap-h2 span{
+	float: left;
+	padding: 5px 0 0 10px;
+}
+.table-hidden{
+    display: none;
+}
+.button-secondary{
+    transition: all 0.3s;
+}
+.button-secondary:hover{
+    background: #ffffe0 !important;
+}
+#sitemap-display-order{
+    margin: 0;
+}
+#sitemap-display-order li{
+    margin: 0;
+    padding: 8px;
+    max-width: 250px;
+    position: relative;
+    border-top: 1px solid #c0c0c0;
+    border-left: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+}
+#sitemap-display-order li:last-child{
+	border-bottom: 1px solid #c0c0c0;
+}
+#sitemap-display-order span.swp-name{
+    display: inline-block;
+    min-height: 16px;
+    padding-bottom: 1px;
+}
+#sitemap-display-order input.swp-name{
+    max-width: 160px;
+}
+.sitemap-down{
+    position: absolute;
+    right: 45px;
+    top: 6px;
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-top: 25px solid #d3d3d3;
+	transition: border-color 0.3s;
+}
+.sitemap-down:last-child{
+    border-color: blue;
+}
+.sitemap-up{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-bottom: 25px solid #d3d3d3;
+	transition: border-color 0.3s;
+}
+.sitemap-down:hover{
+    cursor: pointer;
+    border-top-color: #ff0000;
+}
+.sitemap-up:hover{
+    cursor: pointer;
+    border-bottom-color: #008000;
+}
+.sitemap-change-btn{
+    position: absolute;
+    left: 275px;
+    top: 4px;
+}
+.simple-wp-s-image{
+	width: 500px;
+	max-width: 55%;
+	border: 1px solid gray;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+	float: left;
+}
+.simple-wp-s-p{
+	float: left;
+	width: 39%;
+    padding-right: 1%;
+}
+.simple-wp-right{
+    text-align: right;
+}
+.simple-wp-also{
+	float: left;
+	width: 100%;
+	list-style-type: square;
+	padding-left: 25px;
+	box-sizing: border-box;
+}
+.simple-wp-sitemap-includes{
+    padding: 0 20px;
+    list-style-type: disc;
+}
+@media screen and (max-width: 800px){
+	.simple-wp-s-image{
+		max-width: 100%;
+        margin-top: 20px;
+	}
+	.simple-wp-s-p{
+		width: 100%;
+	}
+    .simple-wp-right{
+        text-align: left;
+    }
+}
+@media screen and (max-width: 500px){
+    #simple-wp-sitemap-donate img{
+		position: static;
+		display: block;
+		margin: 10px 0 0 0;
+    }
+    .simple-wp-s-p{
+    	width: 100%;
+        padding-right: 0;
+    }
+    #sitemap-settings{
+    	width: 100%;
+    	margin-bottom: 10px;
+    }
+    #sitemap-settings li{
+    	width: 100%;
+    }
+    #simple-wp-sitemap-form table{
+    	padding: 2% 0 2% 2%;
+    }
+}

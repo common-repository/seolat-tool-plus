@@ -1,0 +1,19 @@
+#sl-permalinks table.widefat {
+	width: 100%;
+}
+
+#sl-permalinks table.widefat th,
+#sl-permalinks table.widefat td {
+	vertical-align: middle;
+	padding: 5px;
+}
+
+#sl-permalinks table.widefat .sl-permalinks-taxonomy {
+	width: 10em;
+}
+
+#sl-permalinks table.widefat .sl-permalinks-arrow {
+	width: 2em;
+	padding: 0;
+	text-align: center;
+}
